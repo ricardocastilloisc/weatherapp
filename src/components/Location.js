@@ -1,10 +1,14 @@
 import  React  from 'react';
 
-const Location = (props) => {
+const Location = ({ city }) => {
 
-    console.log(props);
-    debugger;
-    return (<div><h1>Buenos aries</h1></div>);
+
+    return (
+        <div>
+            <h1>
+                { city }
+            </h1>
+        </div>);
 }
    
  
